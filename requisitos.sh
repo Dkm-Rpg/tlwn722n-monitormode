@@ -1,4 +1,12 @@
 #!/bin/bash
+
+#colores
+azul="\033[1;34m"
+rojo="\033[1;31m"
+
+function todo () {
+
+
 python3 banner.py
 echo "
 
@@ -27,3 +35,15 @@ chmod 777 -R rtl8188eus
 
 #esto obtiene los heades de linux
 sudo apt-get install linux-headers-$(uname -r)
+
+}
+
+
+#esto comprueba el root o el super usuario
+if [ "$(id -u)" == "0" ]; then
+ echo -e $azul " "
+ python3 banner.py
+ todo
+else
+    echo -e $rojo "es necesario ser root para que el script funcione D:"
+fi
