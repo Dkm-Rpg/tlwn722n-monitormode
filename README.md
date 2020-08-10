@@ -7,7 +7,7 @@ sudo bash requisitos.sh<br/>
 sudo bash tlwn722n-monitormode.sh <br/>
 <br />
 <h2>Sistemas operativos probados</h2>
-Kali linux
+Kali linux, Parrot Os, Linux mint, Ubuntu.
 
 <h3> Nota </h3>
 estoy trabajando en mejorarlo, por el momento eso es todo, esperen futuras verciones<br/>
