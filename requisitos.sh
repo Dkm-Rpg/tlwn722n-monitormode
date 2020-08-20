@@ -36,7 +36,13 @@ chmod 777 -R rtl8188eus
 #esto obtiene los heades de linux
 sudo apt-get install linux-headers-$(uname -r)
 
+#esto obtiene la suit de aircrack-ng
+sudo apt-get install aircrack-ng
+
+clear && echo "Requisitos instalados" && sleep 2 && sudo ./tlwn722n-monitormode.sh
+
 }
+
 
 
 #esto comprueba el root o el super usuario
