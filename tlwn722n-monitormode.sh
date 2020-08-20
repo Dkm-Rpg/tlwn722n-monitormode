@@ -72,6 +72,7 @@ function one () {
 
 #funcion de la antena
 function ada () {
+    sudo airmon-ng
     echo -e " "$verde" Coloca el nombre de tu tarjeta tl-wn722n (ej wlan0 o wlan1)"
     echo -n " #> "
     read antena
@@ -117,6 +118,7 @@ function dos () {
 function procesisng () {
 $magenta
 python3 banner.py
+sudo airmon-ng
 echo -e " "$verde" Coloca el nombre de tu tarjeta tl-wn722n (ej wlan0 o wlan1)"
 echo -n " #> "
 read antena
